@@ -23,6 +23,3 @@ lib/
 
 *.tsbuildinfo
 
-*.js
-*.js.map
-*.d.ts

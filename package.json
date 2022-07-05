@@ -1,6 +1,6 @@
 {
   "name": "tutors-generator",
-  "private": true,
+  "private": false,
   "scripts": {
     "clean": "rimraf  \"packages/**/*.tsbuildinfo\" \"packages/**/*.js\" \"packages/**/*.d.ts\" \"packages/**/*.js.map\"",
     "compile": "tsc -b tsconfig.build.json",
@@ -14,5 +14,5 @@
   "workspaces": [
     "packages/*"
   ],
-  "version": "2.5.0"
+  "version": "2.5.1"
 }
