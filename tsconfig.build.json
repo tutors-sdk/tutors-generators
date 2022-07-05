@@ -9,12 +9,6 @@
     },
     {
       "path": "packages/tutors-html"
-    },
-    {
-      "path": "packages/tutors-reader-lib"
-    },
-    {
-      "path": "packages/tutors-course-reader"
     }
   ]
 }

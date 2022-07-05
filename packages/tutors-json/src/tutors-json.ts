@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import * as fs from 'fs';
-import { Course } from 'tutors-lib-beta/src/models/course';
+import { Course } from 'tutors-lib/src/models/course';
 import { JsonEmitter } from './controllers/json-emitter';
 import { generateNetlifyToml } from './controllers/netlify';
 const tutors = require('../package.json').version;

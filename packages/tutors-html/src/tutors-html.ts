@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 import * as fs from 'fs';
-import { Course } from 'tutors-lib-beta/src/models/course';
+import { Course } from 'tutors-lib/src/models/course';
 import { HtmlEmitter } from './controllers/html-emitter';
-import { copyFolder } from 'tutors-lib-beta/src/utils/futils';
+import { copyFolder } from 'tutors-lib/src/utils/futils';
 
 const tutors = require('../package.json').version;
 const tutors_lib = require('../package.json').dependencies['tutors-lib-beta'];

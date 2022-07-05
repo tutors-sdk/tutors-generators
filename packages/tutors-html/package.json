@@ -1,5 +1,5 @@
 {
-  "name": "tutors-html-beta",
+  "name": "tutors-html",
   "version": "2.5.0",
   "description": "Static course web site generator - html emitter",
   "main": "./src/tutors-html.js",
@@ -16,7 +16,7 @@
     "tutors-html": "./src/tutors-html.js"
   },
   "dependencies": {
-    "tutors-lib-beta": "^2.5.0",
+    "tutors-lib": "^2.5.0",
     "@types/node": "^18.0.0",
     "@types/shelljs": "^0.8.11",
     "commander": "^9.3.0",

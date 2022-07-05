@@ -1,11 +1,11 @@
-import { Course } from 'tutors-lib-beta/src/models/course';
-import { LearningObject } from 'tutors-lib-beta/src/models/lo';
-import { Topic, Unit } from 'tutors-lib-beta/src/models/topic';
-import { Archive, PanelTalk, Talk } from 'tutors-lib-beta/src/models/los';
-import { PanelVideo } from 'tutors-lib-beta/src/models/web-los';
-import { writeFile } from 'tutors-lib-beta/src/utils/futils';
-import { Lab } from 'tutors-lib-beta/src/models/lab';
-import { Note, PanelNote } from 'tutors-lib-beta/src/models/note';
+import { Course } from 'tutors-lib/src/models/course';
+import { LearningObject } from 'tutors-lib/src/models/lo';
+import { Topic, Unit } from 'tutors-lib/src/models/topic';
+import { Archive, PanelTalk, Talk } from 'tutors-lib/src/models/los';
+import { PanelVideo } from 'tutors-lib/src/models/web-los';
+import { writeFile } from 'tutors-lib/src/utils/futils';
+import { Lab } from 'tutors-lib/src/models/lab';
+import { Note, PanelNote } from 'tutors-lib/src/models/note';
 
 export class JsonEmitter {
   version = '0.0';

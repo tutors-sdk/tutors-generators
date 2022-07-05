@@ -1,14 +1,14 @@
 import * as sh from 'shelljs';
 
-import { Course } from 'tutors-lib-beta/src/models/course';
-import { writeFile } from 'tutors-lib-beta/src/utils/futils';
-import { Topic, Unit } from 'tutors-lib-beta/src/models/topic';
-import { Lab } from 'tutors-lib-beta/src/models/lab';
+import { Course } from 'tutors-lib/src/models/course';
+import { writeFile } from 'tutors-lib/src/utils/futils';
+import { Topic, Unit } from 'tutors-lib/src/models/topic';
+import { Lab } from 'tutors-lib/src/models/lab';
 import { MarkdownParser } from '../utils/markdown-parser';
-import { LearningObject } from 'tutors-lib-beta/src/models/lo';
-import { Note } from 'tutors-lib-beta/src/models/note';
+import { LearningObject } from 'tutors-lib/src/models/lo';
+import { Note } from 'tutors-lib/src/models/note';
 import { generateToc } from '../utils/markdown-toc-lib';
-import { sortLos } from 'tutors-lib-beta/src/utils/loutils';
+import { sortLos } from 'tutors-lib/src/utils/loutils';
 const nunjucks = require('nunjucks');
 
 export function publishTemplate(path: string, file: string, template: string, lo: any): void {
