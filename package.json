@@ -1,0 +1,18 @@
+{
+  "name": "tutors-generator",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf  \"packages/**/*.tsbuildinfo\" \"packages/**/*.js\" \"packages/**/*.d.ts\" \"packages/**/*.js.map\"",
+    "compile": "tsc -b tsconfig.build.json",
+    "version": "npm version $npm_package_version --workspaces",
+    "publish" : "npm publish --workspaces"
+  },
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "typescript": "4.7.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "2.5.0"
+}
