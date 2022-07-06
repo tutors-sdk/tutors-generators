@@ -36,7 +36,6 @@ class Course extends lo_1.LearningObject {
         this.los = [];
         this.contentMd = "";
         this.walls = [];
-        console.log("Version X:");
         this.los = (0, loutils_1.reapLos)({ parent: this });
         this.lotype = 'course';
         this.reap('course');

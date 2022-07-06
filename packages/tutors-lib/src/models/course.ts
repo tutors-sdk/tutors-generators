@@ -31,7 +31,6 @@ export class Course extends LearningObject {
 
   constructor(parent?: LearningObject) {
     super(parent);
-    console.log("Version X:");
     this.los = reapLos({ parent: this });
     this.lotype = 'course';
     this.reap('course');

@@ -4,7 +4,7 @@ import { Course } from 'tutors-lib/src/models/course';
 import { JsonEmitter } from './controllers/json-emitter';
 import { generateNetlifyToml } from './controllers/netlify';
 const tutors = require('../package.json').version;
-const tutors_lib = require('../package.json').dependencies['tutors-lib-beta'];
+const tutors_lib = require('../package.json').dependencies['tutors-lib'];
 const version = `tutors-json-beta ${tutors} (tutors-lib-beta: ${tutors_lib})`;
 
 if (fs.existsSync('course.md')) {

@@ -29,7 +29,7 @@ const course_1 = require("tutors-lib/src/models/course");
 const json_emitter_1 = require("./controllers/json-emitter");
 const netlify_1 = require("./controllers/netlify");
 const tutors = require('../package.json').version;
-const tutors_lib = require('../package.json').dependencies['tutors-lib-beta'];
+const tutors_lib = require('../package.json').dependencies['tutors-lib'];
 const version = `tutors-json-beta ${tutors} (tutors-lib-beta: ${tutors_lib})`;
 if (fs.existsSync('course.md')) {
     const course = new course_1.Course();
